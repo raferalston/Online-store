@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <script src="./js/index.js" async></script>
+  <script src="./js/cart.js" async></script>
+
+
+</head>
+
+<body>
+  <div class="header">
+    <div class="wrap header-wrap">
+      <div class="header-left">
+        <a href="index.html" class="header-logo-link">
+          <img src="img/logo.png" width="44" height="38" alt="logo" class="header-logo">
+        </a>
+        <a href="#" class="header-search-link">
+          <img src="img/forma.png" width="26" height="26" alt="search" class="header-logo">
+        </a>
+      </div>
+      <div class="header-right">
+        <a href="#" class="header-burger-link">
+          <img src="img/burger.png" width="32" height="23" alt="logo" class="header-logo">
+        </a>
+        <a href="registration.html" class="header-account-link">
+          <img src="img/account.png" width="29" height="29" alt="logo" class="header-logo">
+        </a>
+        <a href="cart.html" class="header-cart-link">
+          <img src="img/cart.png" width="32" height="29" alt="logo" class="header-logo">
+          <span class="span-cart"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <main>
+    <div class="pink">
+      <div class="wrap">
+        <p class="arrivals-title__registrstion">SHOPPING CART</p>
+      </div>
+    </div>
+    <section class="shoping-carts wrap">
+      <div class="shoping-main">
+        <div class="shoping" id="clear"></div>
+
+        <form>
+          <div class="left-buttons">
+            <button class="clear">CLEAR SHOPPING CART</button>
+            <button class="clear">CONTINUE SHOPPING</button>
+          </div>
+        </form>
+      </div>
+      <div class="right wrap">
+        <form class="cart-form">
+          <h2 class="right-title">SHIPPING ADRESS</h2>
+          <input class="right-form" placeholder="Bangladesh">
+          <input class="right-form" placeholder="State">
+          <input class="right-form" placeholder="Postcode / Zip">
+          <input class="right-button" placeholder="GET A QUOTE">
+        </form>
+        <section class="arrange">
+          <p class="arrange-title">SUB TOTAL<span class="arrange-span">$900</span></p>
+          <p class="arrange-subtitle">GRAND TOTAL<span class="arrange-span_two">$900</span></p>
+          <div class="arrange-line"></div>
+          <button class="arrange-button">PROCEED TO CHECKOUT</button>
+        </section>
+      </div>
+    </section>
+  </main>
+  <aside class="subscribe">
+    <div class="subscribe-link">
+      <div class="wrap subscribe-wrap">
+        <section class="subscribe-one">
+          <img src="./img/Intersect.png" alt="subscribe" class="subscribe-image">
+          <h3 class="one-title">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+            condimentum“</h3>
+        </section>
+        <section class="subscribe-two">
+          <h3 class="subscribe-title">SUBSCRIBE </h3>
+          <p class="two-title">FOR OUR NEWLETTER AND PROMOTION</p>
+          <div class="buttons">
+            <input class="one-buttons title-buttons" id="account" type="email" placeholder="Enter Your Email"></input>
+            <p class="subtitle-buttons"><button class="two-buttons">Subscribe</button></p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </aside>
+  <footer class="footer">
+    <div class="footer-black wrap">
+      <p class="footer-title">© 2021 Brand All Rights Reserved.</p>
+      <div class="footer-icon">
+        <a href="#" class="icon-facebook"><img src="./img/facebook.svg" class="footer-icon" alt="facebook" width="8"
+            height="14"></a>
+        <a href="#" class="icon"><img src="./img/insta.svg" alt="instagram"></a>
+        <a href="#" class="icon-pi"><img src="./img/Pi.svg" alt="P"></a>
+        <a href="#" class="icon"><img src="./img/twitter.svg" alt="twit"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
