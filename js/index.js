@@ -153,16 +153,10 @@ function valueInput(product) {
     console.log(cartValue)
     Array.from(inputValue).forEach(index => {
 
- Object.values(cartValue).map(item => {
-            console.log(cartValue) 
-            if(item) {
-                index.value = item.inCart +=1
-            } else{
-                index.value = item.inCart
-            }
-           
+        Object.values(cartValue).map(item => {
+            index.value = item.inCart
 
-         })
+        })
 
     })
 }
